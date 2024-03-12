@@ -9,8 +9,8 @@ public:
         void set_left(TreeNode* t);
         void set_right(TreeNode* t){rightPtr=t;}
         int get_value(){return data;}
-        TreeNode* get_right(){ return rightPtr; }
-        TreeNode* get_left(){ return leftPtr; }
+        TreeNode* move_right(){ return rightPtr; }
+        TreeNode* move_left(){ return leftPtr; }
     //void search_tree(TreeNode * crn ,int x );
        
 
