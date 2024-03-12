@@ -41,8 +41,9 @@ void BST::insert_node(int value) {
               
               
           }// end while*/
-          ++size;
+      
       //}//ene else
+        ++size;
   }//end  new node
 }
 
